@@ -276,7 +276,7 @@ export default function Home() {
             <p className="text-xl text-muted-foreground mb-8">
               {t("contact.description")}
             </p>
-            <Button size="lg" className="gradient-primary text-primary-foreground text-lg px-8 py-6" onClick={() => window.location.href = 'mailto:info@quraai.ae'}>
+            <Button size="lg" className="gradient-primary text-primary-foreground text-lg px-8 py-6" onClick={() => window.location.href = 'mailto:info@qura-ai.ae'}>
               {t("contact.cta")}
             </Button>
           </div>

@@ -59,8 +59,8 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3 text-muted-foreground">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                <a href="mailto:info@quraai.ae" className="text-sm hover:text-primary transition-colors" style={{ fontFamily: 'Inter' }}>
-                  info@quraai.ae
+                <a href="mailto:info@qura-ai.ae" className="text-sm hover:text-primary transition-colors" style={{ fontFamily: 'Inter' }}>
+                  info@qura-ai.ae
                 </a>
               </li>
               <li className="flex items-start gap-3 text-muted-foreground">
