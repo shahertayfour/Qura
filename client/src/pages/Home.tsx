@@ -99,11 +99,11 @@ export default function Home() {
               {t("hero.description")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="gradient-primary text-primary-foreground text-lg px-8 py-6">
+              <Button size="lg" className="gradient-primary text-primary-foreground text-lg px-8 py-6" onClick={() => window.location.href = '#contact'}>
                 <Rocket className={`h-5 w-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
                 {t("hero.cta.primary")}
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-6">
+              <Button size="lg" variant="outline" className="text-lg px-8 py-6" onClick={() => window.location.href = '#story'}>
                 {t("hero.cta.secondary")}
                 <ArrowIcon className={`h-5 w-5 ${isRTL ? 'mr-2' : 'ml-2'}`} />
               </Button>
@@ -236,7 +236,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <Button size="lg" className="gradient-primary text-primary-foreground text-lg px-8 py-6">
+            <Button size="lg" className="gradient-primary text-primary-foreground text-lg px-8 py-6" onClick={() => window.location.href = '#contact'}>
               <Rocket className={`h-5 w-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
               {t("join.cta")}
             </Button>
@@ -258,7 +258,7 @@ export default function Home() {
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
               {t("vision.description")}
             </p>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6">
+            <Button size="lg" variant="outline" className="text-lg px-8 py-6" onClick={() => window.location.href = '#contact'}>
               {t("vision.cta")}
               <ArrowIcon className={`h-5 w-5 ${isRTL ? 'mr-2' : 'ml-2'}`} />
             </Button>
@@ -276,7 +276,7 @@ export default function Home() {
             <p className="text-xl text-muted-foreground mb-8">
               {t("contact.description")}
             </p>
-            <Button size="lg" className="gradient-primary text-primary-foreground text-lg px-8 py-6">
+            <Button size="lg" className="gradient-primary text-primary-foreground text-lg px-8 py-6" onClick={() => window.location.href = 'mailto:info@quraai.ae'}>
               {t("contact.cta")}
             </Button>
           </div>
